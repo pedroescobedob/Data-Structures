@@ -16,7 +16,7 @@ class LinkedList(Node):
   def __init__(self, first_node=None):
     self.head = first_node
     self.tail = first_node
-  
+
   def add_to_head(self, value, tail):
     # create a new Node
     new_node = Node(value)
